@@ -1,20 +1,59 @@
-.div1{
-    background-color: red;
-    width: 200px;
-    height: 200px;
+body{
+    margin: 0;
+    padding: 0;
 }
-.div2{
-    background-color: blue;
-    width: 200px;
-    height: 200px;
+.title{
+    color: green;
+    text-align: center;
 }
-.div3{
-    background-color: green;
-    width: 200px;
-    height: 200px;
-}
-.parent{
+.prant{
     display: flex;
-    align-items:center;
-    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;
+}
+.photo img{
+width: 250px;
+}
+.details-btn{
+    border: none;
+    border-radius: 5px;
+    padding: 15px 50px;
+    background-image: linear-gradient(45deg,green,red,green  );
+}
+.details-btn:hover{
+     background-color: blue;
+     color: white;
+     cursor: pointer;
+}
+.second-section{
+    text-align: center;
+    margin-top: 50px;
+}
+.dhaka{
+    width: 150px;
+    border: 1px solid gray;
+    box-shadow: 4px 4px 12px;
+    border-radius: 5px;
+}
+.div-img img{
+    width: 100%;
+}
+.all-divisions{
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+}
+.buttom-section{
+    padding: 15px;
+}
+.detais{
+    background-color: red;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+ 
+}
+.detais{
+background-color: blue;
+color: white;
 }
